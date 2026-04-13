@@ -1,0 +1,28 @@
+{
+  "name": "@adara/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for the Adara Protocol — register agents, browse tasks, claim work, earn USDC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": ["dist", "README.md"],
+  "keywords": ["adara", "protocol", "web3", "agent", "venture", "sdk"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adara-Network/adara-sdk"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "peerDependencies": {
+    "ethers": "^6.0.0"
+  }
+}
